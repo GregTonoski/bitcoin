@@ -380,33 +380,33 @@ RPCHelpMan importprunedfunds()
     }
     uint256 hashTx = tx.GetHash();
 
-    DataStream ssMB{ParseHexV(request.params[1], "proof")};
+//    DataStream ssMB{ParseHexV(request.params[1], "proof")};
     CMerkleBlock merkleBlock;
-    ssMB >> merkleBlock;
+//    ssMB >> merkleBlock;
 
     //Search partial merkle tree in proof for our transaction and index in valid block
-    std::vector<uint256> vMatch;
-    std::vector<unsigned int> vIndex;
-    if (merkleBlock.txn.ExtractMatches(vMatch, vIndex) != merkleBlock.header.hashMerkleRoot) {
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Something wrong with merkleblock");
-    }
+//    std::vector<uint256> vMatch;
+//    std::vector<unsigned int> vIndex;
+//    if (merkleBlock.txn.ExtractMatches(vMatch, vIndex) != merkleBlock.header.hashMerkleRoot) {
+//        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Something wrong with merkleblock");
+//    }
 
     LOCK(pwallet->cs_wallet);
-    int height;
-    if (!pwallet->chain().findAncestorByHash(pwallet->GetLastBlockHash(), merkleBlock.header.GetHash(), FoundBlock().height(height))) {
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Block not found in chain");
-    }
+//    int height;
+//    if (!pwallet->chain().findAncestorByHash(pwallet->GetLastBlockHash(), merkleBlock.header.GetHash(), FoundBlock().height(height))) {
+//        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Block not found in chain");
+//    }
 
-    std::vector<uint256>::const_iterator it;
-    if ((it = std::find(vMatch.begin(), vMatch.end(), hashTx)) == vMatch.end()) {
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Transaction given doesn't exist in proof");
-    }
+//    std::vector<uint256>::const_iterator it;
+//    if ((it = std::find(vMatch.begin(), vMatch.end(), hashTx)) == vMatch.end()) {
+//        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Transaction given doesn't exist in proof");
+//    }
 
-    unsigned int txnIndex = vIndex[it - vMatch.begin()];
+//    unsigned int txnIndex = vIndex[it - vMatch.begin()];
 
     CTransactionRef tx_ref = MakeTransactionRef(tx);
     if (pwallet->IsMine(*tx_ref)) {
-        pwallet->AddToWallet(std::move(tx_ref), TxStateConfirmed{merkleBlock.header.GetHash(), height, static_cast<int>(txnIndex)});
+        pwallet->AddToWallet(std::move(tx_ref), TxStateConfirmed{merkleBlock.header.GetHash(), 1, 1}});
         return UniValue::VNULL;
     }
 
