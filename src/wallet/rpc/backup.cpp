@@ -365,7 +365,7 @@ RPCHelpMan importprunedfunds()
                 "\nImports funds without rescan. Corresponding address or script must previously be included in wallet. Aimed towards pruned wallets. The end-user is responsible to import additional transactions that subsequently spend the imported outputs or rescan after the point in the blockchain the transaction is included.\n",
                 {
                     {"rawtransaction", RPCArg::Type::STR_HEX, RPCArg::Optional::NO, "A raw transaction in hex funding an already-existing address in wallet"},
-                    {"txoutproof", RPCArg::Type::STR_HEX, RPCArg::Optional::NO, "The hex output from gettxoutproof that contains the transaction"},
+                    {"txoutproof", RPCArg::Type::STR_HEX, RPCArg::Optional::OMITTED, "The hex output from gettxoutproof that contains the transaction"},
                 },
                 RPCResult{RPCResult::Type::NONE, "", ""},
                 RPCExamples{""},
@@ -380,36 +380,48 @@ RPCHelpMan importprunedfunds()
     }
     uint256 hashTx = tx.GetHash();
 
-//    DataStream ssMB{ParseHexV(request.params[1], "proof")};
-    CMerkleBlock merkleBlock;
-//    ssMB >> merkleBlock;
-
-    //Search partial merkle tree in proof for our transaction and index in valid block
-//    std::vector<uint256> vMatch;
-//    std::vector<unsigned int> vIndex;
-//    if (merkleBlock.txn.ExtractMatches(vMatch, vIndex) != merkleBlock.header.hashMerkleRoot) {
-//        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Something wrong with merkleblock");
-//    }
-
-    LOCK(pwallet->cs_wallet);
-//    int height;
-//    if (!pwallet->chain().findAncestorByHash(pwallet->GetLastBlockHash(), merkleBlock.header.GetHash(), FoundBlock().height(height))) {
-//        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Block not found in chain");
-//    }
-
-//    std::vector<uint256>::const_iterator it;
-//    if ((it = std::find(vMatch.begin(), vMatch.end(), hashTx)) == vMatch.end()) {
-//        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Transaction given doesn't exist in proof");
-//    }
-
-//    unsigned int txnIndex = vIndex[it - vMatch.begin()];
-
-    CTransactionRef tx_ref = MakeTransactionRef(tx);
-    if (pwallet->IsMine(*tx_ref)) {
-        pwallet->AddToWallet(std::move(tx_ref), TxStateConfirmed{merkleBlock.header.GetHash(), 1, 1}});
-        return UniValue::VNULL;
+    if (!request.params[1].isNull()) {
+      DataStream ssMB{ParseHexV(request.params[1], "proof")};
+      CMerkleBlock merkleBlock;
+      ssMB >> merkleBlock;
+      
+      //Search partial merkle tree in proof for our transaction and index in valid block
+      std::vector<uint256> vMatch;
+      std::vector<unsigned int> vIndex;
+      if (merkleBlock.txn.ExtractMatches(vMatch, vIndex) != merkleBlock.header.hashMerkleRoot) {
+          throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Something wrong with merkleblock");
+      }
+      
+      LOCK(pwallet->cs_wallet);
+      int height;
+      if (!pwallet->chain().findAncestorByHash(pwallet->GetLastBlockHash(), merkleBlock.header.GetHash(), FoundBlock().height(height))) {
+          throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Block not found in chain");
+      }
+      
+      std::vector<uint256>::const_iterator it;
+      if ((it = std::find(vMatch.begin(), vMatch.end(), hashTx)) == vMatch.end()) {
+          throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Transaction given doesn't exist in proof");
+      }
+      
+      unsigned int txnIndex = vIndex[it - vMatch.begin()];
+      
+      CTransactionRef tx_ref = MakeTransactionRef(tx);
+      if (pwallet->IsMine(*tx_ref)) {
+          pwallet->AddToWallet(std::move(tx_ref), TxStateConfirmed{merkleBlock.header.GetHash(), height, static_cast<int>(txnIndex)});
+          return UniValue::VNULL;
+      }
+    } else {
+        const UniValue dummyData{UniValue::VSTR, "0100000055bd840a78798ad0da853f68974f3d183e2bd1db6a842c1feecf222a00000000ff104ccb05421ab93e63f8c3ce5c2c2e9dbb37de2764b3a3175c8166562cac7d51b96a49ffff001d283e9e70020000000282501c1178fa0b222c1f3d474ec726b832013f0a532b44bb620cce8624a5feb1169e1e83e930853391bc6f35f605c6754cfead57cf8387639d3b4096c54f18f40105"}; 
+        DataStream ssMB{ParseHexV(dummyData, "proof")};
+        CMerkleBlock merkleBlock;
+        ssMB >> merkleBlock;
+        LOCK(pwallet->cs_wallet);
+        CTransactionRef tx_ref = MakeTransactionRef(tx);
+        if (pwallet->IsMine(*tx_ref)) {
+          pwallet->AddToWallet(std::move(tx_ref), TxStateConfirmed{merkleBlock.header.GetHash(), 1, 1}});
+          return UniValue::VNULL;
+        }
     }
-
     throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "No addresses in wallet correspond to included transaction");
 },
     };
