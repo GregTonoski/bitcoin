@@ -1,0 +1,185 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
+  <diagram name="Page-1" id="Ci5X0dOgDmQ8A2ICDq2h">
+    <mxGraphModel dx="1288" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cN8oldgwm6AlbBRxET6S-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="10" y="340" as="sourcePoint" />
+            <mxPoint x="500" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-6" connectable="0" parent="cN8oldgwm6AlbBRxET6S-1" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=32;" value="Bitcoin" vertex="1">
+          <mxGeometry relative="1" x="0.8632" y="-1" as="geometry">
+            <mxPoint x="-84" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=oval;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="340" as="sourcePoint" />
+            <mxPoint x="180" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-12" connectable="0" parent="cN8oldgwm6AlbBRxET6S-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8 August 2026&lt;div&gt;block height 961631&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
+            <mxPoint x="-5" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=entityRelationEdgeStyle;dashed=1;dashPattern=1 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="340" as="sourcePoint" />
+            <mxPoint x="390" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-28" connectable="0" parent="cN8oldgwm6AlbBRxET6S-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-37.5;" value="perishable" vertex="1">
+          <mxGeometry relative="1" x="-0.0329" y="2" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-7" connectable="0" parent="cN8oldgwm6AlbBRxET6S-2" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;centrally managed &lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;SHA-256d coin a.k.a. Bithereum platform&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.9028" y="4" as="geometry">
+            <mxPoint x="-96" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=entityRelationEdgeStyle;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="340" as="sourcePoint" />
+            <mxPoint x="390" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-17" connectable="0" parent="cN8oldgwm6AlbBRxET6S-16" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;New coin without PoW algo update&lt;br&gt;(&quot;Hobbled Bitcoin&quot;, incl. BIP-110)&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.9028" y="4" as="geometry">
+            <mxPoint x="-20" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;edgeStyle=entityRelationEdgeStyle;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="205" y="340" as="sourcePoint" />
+            <mxPoint x="330" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-19" connectable="0" parent="cN8oldgwm6AlbBRxET6S-18" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Bitcoin Purity (incl. BIP-110)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;bitcoinpurity.org&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;diff. adj. algo&amp;nbsp;aserti3-1d&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.9028" y="4" as="geometry">
+            <mxPoint x="-17" y="44" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="540" as="sourcePoint" />
+            <mxPoint x="390" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-24" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=oval;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="235.22000000000003" y="339.97" as="sourcePoint" />
+            <mxPoint x="235.22000000000003" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-25" connectable="0" parent="cN8oldgwm6AlbBRxET6S-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="19 August 2026" vertex="1">
+          <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
+            <mxPoint x="-8" y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-26" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=oval;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="340" as="sourcePoint" />
+            <mxPoint x="320" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-27" connectable="0" parent="cN8oldgwm6AlbBRxET6S-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;30 August&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2026&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;05:08 UTC&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;961640&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
+            <mxPoint x="-6" y="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cN8oldgwm6AlbBRxET6S-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;white-space-collapse: collapse; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;vulnerable to wipe-out by&lt;/span&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;&amp;nbsp;Hobbled Bitcoin coin)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="393" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="BECZef8yuoEgKaqJkIvo-1" parent="1" style="shape=image;aspect=fixed;image=data:image/svg+xml,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iVnJzdHZhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMTQ0IDE0NSI+CiAgPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI5LjQuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDIuMS4wIEJ1aWxkIDE1MikgIC0tPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuc3QwIHsKICAgICAgICBmaWxsOiAjZmZmOwogICAgICB9CgogICAgICAuc3QxIHsKICAgICAgICBmaWxsOiAjZjc5MzFhOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTQxLjg0NTk5Myw4OS42NjUwMDA5Yy05LjYyMDk4NjksMzguNTcwOTkxNS00OC42ODk4OTU2LDYyLjA0NTk5NzYtODcuMjY5ODg5OCw1Mi40MjgwMDE0QzE2LjAxMjEwMDIsMTMyLjQ3NTk5NzktNy40NjU5Myw5My40MDc5OTcxLDIuMTU3MDY5OSw1NC44MzkwMDA3LDExLjc3MTEsMTYuMjYzOTk5OSw1MC44NDMxMDE1LTcuMjE0MDA5OCw4OS40MTAxMDI4LDIuNDAyOTkwMWMzOC41NzQ4OTc4LDkuNjE3MDEwNCw2Mi4wNTE5MDI4LDQ4LjY4ODAwOTUsNTIuNDM1ODkwMiw4Ny4yNjIwMTA4WiIvPgogIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik00OC4zMTEwMDA4LDg0LjM3NWMtLjM5MjAwMjEuOTcyMDAwMS0xLjM4NTAwMjEsMi40MzA5OTk4LTMuNjIxMDAyMiwxLjg3Njk5ODkuMDc5MDAyNC4xMTM5OTg0LTUuNzQ0OTk4OS0xLjQzMjk5ODctNS43NDQ5OTg5LTEuNDMyOTk4N2wtMy45MTk5OTgyLDkuMDQxMDAwNCwxMC4yNzk5OTg4LDIuNTYyOTk1OWMxLjkxMDk5OTMuNDc5MDAzOSwzLjc4Nzk5ODIuOTc5MDAzOSw1LjYzMiwxLjQ1MzAwMjlsLTMuMjY3MDAyMSwxMy4xMjY5OTg5LDcuODkxMDAyNywxLjk2OTAwMTgsMy4yMzY5OTk1LTEyLjk4Njk5OTVjMi4xNTgwMDA5LjU4Mzk5OTYsNC4yNSwxLjEyNSw2LjI5ODAwMDMsMS42MzQwMDI3bC0zLjIyNjAwMTcsMTIuOTI1OTk0OSw3Ljg5OTk5NzcsMS45NjkwMDE4LDMuMjcwMDA0My0xMy4xMDE5OTc0YzEzLjQ3Mjk5OTYsMi41NDc5OTY1LDIzLjYwMzk5NjMsMS41MTk5OTY2LDI3Ljg2NTk5NzMtMTAuNjYzMDAyLDMuNDM3MDA0MS05LjgwOTk5NzYtLjE2OTk5ODItMTUuNDY5MDAxOC03LjI1Nzk5NTYtMTkuMTYwMDAzNyw1LjE2MDk5NTUtMS4xODk5OTQ4LDkuMDUwOTk0OS00LjU4NTk5ODUsMTAuMDg3OTk3NC0xMS41OTc5OTU4LDEuNDMyOTk4Ny05LjU4MjAwMDctNS44NjI5OTktMTQuNzMxMDAyOC0xNS44Mzc5OTc0LTE4LjE2Njk5OThsMy4yMzUwMDA2LTEyLjk3ODAwMDYtNy44OTkwMDIxLTEuOTY4OTk5OS0zLjE1MTAwMSwxMi42MzU5OTk3Yy0yLjA3OTAwMjQtLjUxODAwMTYtNC4yMDk5OTkxLTEuMDA2MDAwNS02LjMzMTAwMTMtMS40ODkwMDIybDMuMTcwOTk3Ni0xMi43MTk5OTc0LTcuODkzOTk3Mi0xLjk2OTAwMTgtMy4yMzg5OTg0LDEyLjk3NjAwMTctMTUuOTMwOTk5OC0zLjk0NTk5OTEtMi4xMDIwMDEyLDguNDM2OTk2NXM1Ljg2MTAwMDEsMS4zNDMwMDIzLDUuNzM2OTk5NSwxLjQyNzAwMmMzLjIwMDAwMDguNzk4OTk5OCwzLjc3NzAwMDQsMi45MTYwMDA0LDMuNjgwOTk5OCw0LjU5NDAwMThsLTguODYzOTk4NCwzNS41NTE5OTgxWk04NS42ODY5OTY1LDg3LjMwMjAwMmMtMi40NDQwMDAyLDkuODEwOTk3LTE4Ljk1OTk5OTEsNC41MDY5OTYyLTI0LjMxNzk5NywzLjE3NTk5NDlsNC4zMzgwMDEzLTE3LjM4ODk5OTljNS4zNTQ5OTU3LDEuMzM1MDA2NywyMi41Mjk5OTg4LDMuOTgxMDAyOCwxOS45Nzk5OTU3LDE0LjIxMzAwNTFaTTg4LjEyNjk5ODksNjEuODQ5OTk4NWMtMi4yMjU5OTc5LDguOTI0MDAzNi0xNS45NzQ5OTg1LDQuMzg4OTk5OS0yMC40MzQ5OTc2LDMuMjc3MDAwNGwzLjkzMTk5OTItMTUuNzcxOTk5NGM0LjQ1ODk5OTYsMS4xMTE5OTk1LDE4LjgyMzk5NzUsMy4xODcwMDAzLDE2LjUwMjk5ODQsMTIuNDk0OTk4OVoiLz4KPC9zdmc+;" value="" vertex="1">
+          <mxGeometry height="49.33" width="49" x="700" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="10" y="680" as="sourcePoint" />
+            <mxPoint x="470" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=oval;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="60" y="680" as="sourcePoint" />
+            <mxPoint x="60" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-11" connectable="0" parent="jNXuzONU0mhUC8peGpGD-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8 May 2026&lt;div&gt;Bitcoin Knots v29.3&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
+            <mxPoint x="-5" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-15" connectable="0" parent="1" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="Fully validating&lt;div&gt;node software&lt;/div&gt;" vertex="1">
+          <mxGeometry x="20" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=oval;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="680" as="sourcePoint" />
+            <mxPoint x="160" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-18" connectable="0" parent="jNXuzONU0mhUC8peGpGD-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 Augutst 2026&lt;div&gt;Bitcoin Knots v29.3&lt;/div&gt;&lt;div&gt;Bitcoin Knots v29.4&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
+            <mxPoint x="-5" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=oval;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="680" as="sourcePoint" />
+            <mxPoint x="320" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-23" connectable="0" parent="jNXuzONU0mhUC8peGpGD-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="30 Augutst 2026&lt;div&gt;Bitcoin Knots v29.4.1 RC4&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
+            <mxPoint x="-5" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-24" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=oval;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="680" as="sourcePoint" />
+            <mxPoint x="360" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-25" connectable="0" parent="jNXuzONU0mhUC8peGpGD-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2 September 2026&lt;div&gt;Bitcoin Knots v29.4.1 RC4&lt;br&gt;&lt;div&gt;Bitcoin Knots v29.4.1&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
+            <mxPoint x="-5" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-26" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=oval;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="680" as="sourcePoint" />
+            <mxPoint x="410" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-27" connectable="0" parent="jNXuzONU0mhUC8peGpGD-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="21 September 2026&lt;div&gt;Bitcoin Knots v29.4.2&lt;/div&gt;&lt;div&gt;(soft-fork:&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;coinbase maturity period&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;extended to 45 days)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
+            <mxPoint x="-5" y="46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 15px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;(includes both BIP-110 and&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;PoW algo Blake2b substitution via hard-fork)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="487" y="293" as="geometry" />
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-30" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=oval;startFill=1;align=left;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="680" as="sourcePoint" />
+            <mxPoint x="20" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-31" connectable="0" parent="jNXuzONU0mhUC8peGpGD-30" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;10 December 2025&lt;/div&gt;&lt;div&gt;Bitcoin Knots v29.2.0 UASF BIP110 v0.1 RC1.&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
+            <mxPoint x="-23" y="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNXuzONU0mhUC8peGpGD-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 October 2026&lt;div&gt;by Greg Tonoski&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
