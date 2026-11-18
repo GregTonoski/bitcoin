@@ -32,7 +32,7 @@
             <mxPoint x="500" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cN8oldgwm6AlbBRxET6S-7" connectable="0" parent="cN8oldgwm6AlbBRxET6S-2" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;centrally managed &lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;SHA-256d coin a.k.a. Bithereum platform (&amp;lt;&lt;b&gt;2 months old&lt;/b&gt;)&lt;/span&gt;" vertex="1">
+        <mxCell id="cN8oldgwm6AlbBRxET6S-7" connectable="0" parent="cN8oldgwm6AlbBRxET6S-2" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;centrally managed &lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;SHA-256d coin a.k.a. Bithereum platform (&lt;b&gt;&amp;lt;4&amp;nbsp;months old&lt;/b&gt;)&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.9028" y="4" as="geometry">
             <mxPoint x="-215" y="-16" as="offset" />
           </mxGeometry>
@@ -43,13 +43,13 @@
             <mxPoint x="320" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cN8oldgwm6AlbBRxET6S-27" connectable="0" parent="cN8oldgwm6AlbBRxET6S-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;30 August&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2026&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;block height 961640&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Blake2b hard-fork&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="cN8oldgwm6AlbBRxET6S-27" connectable="0" parent="cN8oldgwm6AlbBRxET6S-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;30 August&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2026&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;block height 961640&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Blake2b hard-fork [1]&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
             <mxPoint x="-2" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BECZef8yuoEgKaqJkIvo-1" parent="1" style="shape=image;aspect=fixed;image=data:image/svg+xml,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iVnJzdHZhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMTQ0IDE0NSI+CiAgPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI5LjQuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDIuMS4wIEJ1aWxkIDE1MikgIC0tPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuc3QwIHsKICAgICAgICBmaWxsOiAjZmZmOwogICAgICB9CgogICAgICAuc3QxIHsKICAgICAgICBmaWxsOiAjZjc5MzFhOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTQxLjg0NTk5Myw4OS42NjUwMDA5Yy05LjYyMDk4NjksMzguNTcwOTkxNS00OC42ODk4OTU2LDYyLjA0NTk5NzYtODcuMjY5ODg5OCw1Mi40MjgwMDE0QzE2LjAxMjEwMDIsMTMyLjQ3NTk5NzktNy40NjU5Myw5My40MDc5OTcxLDIuMTU3MDY5OSw1NC44MzkwMDA3LDExLjc3MTEsMTYuMjYzOTk5OSw1MC44NDMxMDE1LTcuMjE0MDA5OCw4OS40MTAxMDI4LDIuNDAyOTkwMWMzOC41NzQ4OTc4LDkuNjE3MDEwNCw2Mi4wNTE5MDI4LDQ4LjY4ODAwOTUsNTIuNDM1ODkwMiw4Ny4yNjIwMTA4WiIvPgogIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik00OC4zMTEwMDA4LDg0LjM3NWMtLjM5MjAwMjEuOTcyMDAwMS0xLjM4NTAwMjEsMi40MzA5OTk4LTMuNjIxMDAyMiwxLjg3Njk5ODkuMDc5MDAyNC4xMTM5OTg0LTUuNzQ0OTk4OS0xLjQzMjk5ODctNS43NDQ5OTg5LTEuNDMyOTk4N2wtMy45MTk5OTgyLDkuMDQxMDAwNCwxMC4yNzk5OTg4LDIuNTYyOTk1OWMxLjkxMDk5OTMuNDc5MDAzOSwzLjc4Nzk5ODIuOTc5MDAzOSw1LjYzMiwxLjQ1MzAwMjlsLTMuMjY3MDAyMSwxMy4xMjY5OTg5LDcuODkxMDAyNywxLjk2OTAwMTgsMy4yMzY5OTk1LTEyLjk4Njk5OTVjMi4xNTgwMDA5LjU4Mzk5OTYsNC4yNSwxLjEyNSw2LjI5ODAwMDMsMS42MzQwMDI3bC0zLjIyNjAwMTcsMTIuOTI1OTk0OSw3Ljg5OTk5NzcsMS45NjkwMDE4LDMuMjcwMDA0My0xMy4xMDE5OTc0YzEzLjQ3Mjk5OTYsMi41NDc5OTY1LDIzLjYwMzk5NjMsMS41MTk5OTY2LDI3Ljg2NTk5NzMtMTAuNjYzMDAyLDMuNDM3MDA0MS05LjgwOTk5NzYtLjE2OTk5ODItMTUuNDY5MDAxOC03LjI1Nzk5NTYtMTkuMTYwMDAzNyw1LjE2MDk5NTUtMS4xODk5OTQ4LDkuMDUwOTk0OS00LjU4NTk5ODUsMTAuMDg3OTk3NC0xMS41OTc5OTU4LDEuNDMyOTk4Ny05LjU4MjAwMDctNS44NjI5OTktMTQuNzMxMDAyOC0xNS44Mzc5OTc0LTE4LjE2Njk5OThsMy4yMzUwMDA2LTEyLjk3ODAwMDYtNy44OTkwMDIxLTEuOTY4OTk5OS0zLjE1MTAwMSwxMi42MzU5OTk3Yy0yLjA3OTAwMjQtLjUxODAwMTYtNC4yMDk5OTkxLTEuMDA2MDAwNS02LjMzMTAwMTMtMS40ODkwMDIybDMuMTcwOTk3Ni0xMi43MTk5OTc0LTcuODkzOTk3Mi0xLjk2OTAwMTgtMy4yMzg5OTg0LDEyLjk3NjAwMTctMTUuOTMwOTk5OC0zLjk0NTk5OTEtMi4xMDIwMDEyLDguNDM2OTk2NXM1Ljg2MTAwMDEsMS4zNDMwMDIzLDUuNzM2OTk5NSwxLjQyNzAwMmMzLjIwMDAwMDguNzk4OTk5OCwzLjc3NzAwMDQsMi45MTYwMDA0LDMuNjgwOTk5OCw0LjU5NDAwMThsLTguODYzOTk4NCwzNS41NTE5OTgxWk04NS42ODY5OTY1LDg3LjMwMjAwMmMtMi40NDQwMDAyLDkuODEwOTk3LTE4Ljk1OTk5OTEsNC41MDY5OTYyLTI0LjMxNzk5NywzLjE3NTk5NDlsNC4zMzgwMDEzLTE3LjM4ODk5OTljNS4zNTQ5OTU3LDEuMzM1MDA2NywyMi41Mjk5OTg4LDMuOTgxMDAyOCwxOS45Nzk5OTU3LDE0LjIxMzAwNTFaTTg4LjEyNjk5ODksNjEuODQ5OTk4NWMtMi4yMjU5OTc5LDguOTI0MDAzNi0xNS45NzQ5OTg1LDQuMzg4OTk5OS0yMC40MzQ5OTc2LDMuMjc3MDAwNGwzLjkzMTk5OTItMTUuNzcxOTk5NGM0LjQ1ODk5OTYsMS4xMTE5OTk1LDE4LjgyMzk5NzUsMy4xODcwMDAzLDE2LjUwMjk5ODQsMTIuNDk0OTk4OVoiLz4KPC9zdmc+;" value="" vertex="1">
-          <mxGeometry height="49.33" width="49" x="700" y="330" as="geometry" />
+          <mxGeometry height="49.33" width="49" x="700" y="329" as="geometry" />
         </mxCell>
         <mxCell id="jNXuzONU0mhUC8peGpGD-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;endFill=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -150,6 +150,48 @@
           <mxGeometry relative="1" x="0.5667" y="3" as="geometry">
             <mxPoint x="-5" y="23" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EnJIQnaLTGYpzCGCSlb5-3" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="20" width="310" x="10" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="EnJIQnaLTGYpzCGCSlb5-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#999999;" value="SHA-256d blocks" vertex="1">
+          <mxGeometry height="30" width="100" x="115" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EnJIQnaLTGYpzCGCSlb5-5" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="20" width="180" x="320" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="EnJIQnaLTGYpzCGCSlb5-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#999999;" value="Blake2b blocks" vertex="1">
+          <mxGeometry height="30" width="100" x="360" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EnJIQnaLTGYpzCGCSlb5-7" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="20" width="490" x="10" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="EnJIQnaLTGYpzCGCSlb5-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#999999;" value="Bitcoin blockchain" vertex="1">
+          <mxGeometry height="30" width="100" x="205" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="EnJIQnaLTGYpzCGCSlb5-9" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;rotation=-180;perimeterSpacing=0;" value="" vertex="1">
+          <mxGeometry height="20" width="315" x="180" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LntnK17k37D-IIATwChR-1" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;rotation=-180;perimeterSpacing=0;" value="" vertex="1">
+          <mxGeometry height="20" width="280" x="215" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LntnK17k37D-IIATwChR-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="20" width="26.5" x="319" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="LntnK17k37D-IIATwChR-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="11" width="16.5" x="212.5" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="LntnK17k37D-IIATwChR-7" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;exitX=0.548;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startSize=6;endSize=6;strokeColor=#FFFFFF;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="349.7" y="220" as="sourcePoint" />
+            <mxPoint x="360.7" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnJIQnaLTGYpzCGCSlb5-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#999999;" value="&lt;div&gt;SHA-256d blocks&lt;/div&gt;AntPool blockchain" vertex="1">
+          <mxGeometry height="30" width="100" x="301.5" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="TxeGa-fkNgQWmjwBam8Y-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;labelBorderColor=light-dark(#6A6A6A,#6A6A6A);textShadow=0;spacingLeft=0;dashed=1;labelPadding=2;labelBorderWidth=1;" value="[1] Bitcoin P2P network has switched over from SHA-256-double to BLAKE2b algorithm in the proof-of-work mechanism with the goal of reinforcing decentralization of the system by breaking off reliance on SHA-256-double hashpower which is controlled by an adversary.&lt;div&gt;&lt;span style=&quot;&quot;&gt;greg.tonoski@gmail.com,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;2026 November 18&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="101" width="260" x="525" y="394" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
